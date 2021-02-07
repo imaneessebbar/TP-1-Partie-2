@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">Horaires de trains</string>
+    <string name="depart">Ville départ</string>
+    <string name="arriver">Ville darrivée</string>
+    <string-array name="ville">
+        <item>Montpellier</item>
+        <item>Nîmes</item>
+        <item>Avignon</item>
+        <item>Marseille</item>
+    </string-array>
+    <string name="btn">Chercher</string>
+    <string name="horaire">Horaires</string>
+    <string name="it">Choisir un itinéraire</string>
+    <string name="annuler">Veuillez choisir correctement</string>
+    <string-array name="mtp_nms">
+        <item>6:17,6:59,42 min,TER</item>
+        <item>6:40,7:10,30 min,TGV</item>
+        <item>7:07,7:52,45 min,TER</item>
+        <item>7:54,8:36,42 min,TER</item>
+        <item>8:17,9:59,42 min,TER</item>
+        <item>8:40,9:10,30 min,TGV</item>
+        <item>9:07,9:52,45 min,TER</item>
+        <item>10:54,11:36,42 min,TER</item>
+    </string-array>
+    <string-array name="nms_mtp">
+        <item>6:17,6:59,42 min,TER</item>
+        <item>6:40,7:10,30 min,TGV</item>
+        <item>7:07,7:52,45 min,TER</item>
+        <item>7:54,8:36,42 min,TER</item>
+        <item>8:17,9:59,42 min,TER</item>
+        <item>8:40,9:10,30 min,TGV</item>
+        <item>9:07,9:52,45 min,TER</item>
+        <item>10:54,11:36,42 min,TER</item>
+    </string-array>
+    <string-array name="mtp_avg">
+        <item>6:17,6:59,42 min,TER</item>
+        <item>6:40,7:10,30 min,TGV</item>
+        <item>7:07,7:52,45 min,TER</item>
+        <item>7:54,8:36,42 min,TER</item>
+        <item>8:17,9:59,42 min,TER</item>
+        <item>8:40,9:10,30 min,TGV</item>
+        <item>9:07,9:52,45 min,TER</item>
+        <item>10:54,11:36,42 min,TER</item>
+    </string-array>
+    <string-array name="avg_mtp">
+        <item>6:17,6:59,42 min,TER</item>
+        <item>6:40,7:10,30 min,TGV</item>
+        <item>7:07,7:52,45 min,TER</item>
+        <item>7:54,8:36,42 min,TER</item>
+        <item>8:17,9:59,42 min,TER</item>
+        <item>8:40,9:10,30 min,TGV</item>
+        <item>9:07,9:52,45 min,TER</item>
+        <item>10:54,11:36,42 min,TER</item>
+    </string-array>
+    <string-array name="mtp_mrs">
+        <item>6:17,6:59,42 min,TER</item>
+        <item>6:40,7:10,30 min,TGV</item>
+        <item>7:07,7:52,45 min,TER</item>
+        <item>7:54,8:36,42 min,TER</item>
+        <item>8:17,9:59,42 min,TER</item>
+        <item>8:40,9:10,30 min,TGV</item>
+        <item>9:07,9:52,45 min,TER</item>
+        <item>10:54,11:36,42 min,TER</item>
+    </string-array>
+    <string-array name="mrs_mtp">
+        <item>6:17,6:59,42 min,TER</item>
+        <item>6:40,7:10,30 min,TGV</item>
+        <item>7:07,7:52,45 min,TER</item>
+        <item>7:54,8:36,42 min,TER</item>
+        <item>8:17,9:59,42 min,TER</item>
+        <item>8:40,9:10,30 min,TGV</item>
+        <item>9:07,9:52,45 min,TER</item>
+        <item>10:54,11:36,42 min,TER</item>
+    </string-array>
+    <string-array name="nms_avg">
+        <item>6:17,6:59,42 min,TER</item>
+        <item>6:40,7:10,30 min,TGV</item>
+        <item>7:07,7:52,45 min,TER</item>
+        <item>7:54,8:36,42 min,TER</item>
+        <item>8:17,9:59,42 min,TER</item>
+        <item>8:40,9:10,30 min,TGV</item>
+        <item>9:07,9:52,45 min,TER</item>
+        <item>10:54,11:36,42 min,TER</item>
+    </string-array>
+    <string-array name="avg_nms">
+        <item>6:17,6:59,42 min,TER</item>
+        <item>6:40,7:10,30 min,TGV</item>
+        <item>7:07,7:52,45 min,TER</item>
+        <item>7:54,8:36,42 min,TER</item>
+        <item>8:17,9:59,42 min,TER</item>
+        <item>8:40,9:10,30 min,TGV</item>
+        <item>9:07,9:52,45 min,TER</item>
+        <item>10:54,11:36,42 min,TER</item>
+    </string-array>
+    <string-array name="nms_mrs">
+        <item>6:17,6:59,42 min,TER</item>
+        <item>6:40,7:10,30 min,TGV</item>
+        <item>7:07,7:52,45 min,TER</item>
+        <item>7:54,8:36,42 min,TER</item>
+        <item>8:17,9:59,42 min,TER</item>
+        <item>8:40,9:10,30 min,TGV</item>
+        <item>9:07,9:52,45 min,TER</item>
+        <item>10:54,11:36,42 min,TER</item>
+    </string-array>
+    <string-array name="mrs_nms">
+        <item>6:17,6:59,42 min,TER</item>
+        <item>6:40,7:10,30 min,TGV</item>
+        <item>7:07,7:52,45 min,TER</item>
+        <item>7:54,8:36,42 min,TER</item>
+        <item>8:17,9:59,42 min,TER</item>
+        <item>8:40,9:10,30 min,TGV</item>
+        <item>9:07,9:52,45 min,TER</item>
+        <item>10:54,11:36,42 min,TER</item>
+    </string-array>
+    <string-array name="avg_mrs">
+        <item>6:17,6:59,42 min,TER</item>
+        <item>6:40,7:10,30 min,TGV</item>
+        <item>7:07,7:52,45 min,TER</item>
+        <item>7:54,8:36,42 min,TER</item>
+        <item>8:17,9:59,42 min,TER</item>
+        <item>8:40,9:10,30 min,TGV</item>
+        <item>9:07,9:52,45 min,TER</item>
+        <item>10:54,11:36,42 min,TER</item>
+    </string-array>
+    <string-array name="mrs_avg">
+        <item>6:17,6:59,42 min,TER</item>
+        <item>6:40,7:10,30 min,TGV</item>
+        <item>7:07,7:52,45 min,TER</item>
+        <item>7:54,8:36,42 min,TER</item>
+        <item>8:17,9:59,42 min,TER</item>
+        <item>8:40,9:10,30 min,TGV</item>
+        <item>9:07,9:52,45 min,TER</item>
+        <item>10:54,11:36,42 min,TER</item>
+    </string-array>
+</resources>

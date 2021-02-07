@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/it"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70px"
+        android:textSize="70px"/>
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:layout_marginTop="100px">
+
+    <TableRow
+        android:id="@+id/tableRow0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/depart_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/depart"
+            android:layout_marginLeft="50px"/>
+        <Spinner
+            android:id="@+id/spinner0"
+            android:layout_width="wrap_content"
+            android:entries="@array/ville"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            android:layout_marginRight="50px" />
+    </TableRow>
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+           >
+
+            <TextView
+                android:id="@+id/arriver_v"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/arriver"
+                android:layout_marginLeft="50px" />
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="wrap_content"
+                android:entries="@array/ville"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="50px"
+                />
+        </TableRow>
+
+    </TableLayout>
+    <Button
+        android:id="@+id/search_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/purple_500"
+        android:text="@string/btn"
+        android:layout_marginTop="80px"/>
+
+    <TextView
+        android:id="@+id/horaire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/horaire"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="70px"
+        android:textSize="70px"
+        android:visibility="invisible"/>
+
+    <ListView
+        android:id="@+id/liste"
+        android:layout_marginTop="50px"
+        android:isScrollContainer="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50px"
+        android:visibility="visible"
+    />
+</LinearLayout>
